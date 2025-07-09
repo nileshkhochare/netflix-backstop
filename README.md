@@ -2,8 +2,6 @@
 
 A React application that combines Netflix's UI with AI-powered movie recommendations using OpenAI and TMDB APIs. Includes visual regression testing with BackstopJS.
 
-![Netflix-GPT Demo](https://via.placeholder.com/800x400?text=Netflix-GPT+Demo) 
-*(Replace with actual screenshot or GIF)*
 
 ## ✨ Features
 
@@ -21,8 +19,6 @@ A React application that combines Netflix's UI with AI-powered movie recommendat
 - OpenAI API
 - TMDB API
 - BackstopJS (Visual Regression Testing)
-- SASS/CSS Modules
-- Axios
 
 ## 🚀 Getting Started
 
