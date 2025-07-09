@@ -1,0 +1,100 @@
+{
+  "testSuite": "BackstopJS",
+  "tests": [
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/netflix-gpt-tests_Login_Page_0_document_0_desktop.png",
+        "test": "../bitmaps_test/20250708-171055/netflix-gpt-tests_Login_Page_0_document_0_desktop.png",
+        "selector": "document",
+        "fileName": "netflix-gpt-tests_Login_Page_0_document_0_desktop.png",
+        "label": "Login Page",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:3000",
+        "referenceUrl": "",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/netflix-gpt-tests_Sign_Up_Page_0_form_0_desktop.png",
+        "test": "../bitmaps_test/20250708-171055/netflix-gpt-tests_Sign_Up_Page_0_form_0_desktop.png",
+        "selector": "form",
+        "fileName": "netflix-gpt-tests_Sign_Up_Page_0_form_0_desktop.png",
+        "label": "Sign Up Page",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:3000/",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/netflix-gpt-tests_Dashboard_after_login_0_document_0_desktop.png",
+        "test": "../bitmaps_test/20250708-171055/netflix-gpt-tests_Dashboard_after_login_0_document_0_desktop.png",
+        "selector": "document",
+        "fileName": "netflix-gpt-tests_Dashboard_after_login_0_document_0_desktop.png",
+        "label": "Dashboard after login",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:3000/",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/netflix-gpt-tests_GPT_Search_View_0_data-testidgpt-search-ui_0_desktop.png",
+        "test": "../bitmaps_test/20250708-171055/netflix-gpt-tests_GPT_Search_View_0_data-testidgpt-search-ui_0_desktop.png",
+        "selector": "[data-testid='gpt-search-ui']",
+        "fileName": "netflix-gpt-tests_GPT_Search_View_0_data-testidgpt-search-ui_0_desktop.png",
+        "label": "GPT Search View",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:3000/browse",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "engineErrorMsg": "Unexpected identifier 'gpt'",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    }
+  ],
+  "id": "netflix-gpt-tests"
+}
