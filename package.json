@@ -1,6 +1,5 @@
 {
   "name": "netflix-gpt",
-  "homepage": "https://nileshkhochare.github.io/netflix-backstop",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
