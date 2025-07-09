@@ -1,0 +1,127 @@
+report({
+  "testSuite": "BackstopJS",
+  "tests": [
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/netflix-gpt-tests_Login_Page_0_document_0_desktop.png",
+        "test": "../bitmaps_test/20250708-224003/netflix-gpt-tests_Login_Page_0_document_0_desktop.png",
+        "selector": "document",
+        "fileName": "netflix-gpt-tests_Login_Page_0_document_0_desktop.png",
+        "label": "Login Page",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:3000",
+        "referenceUrl": "",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/netflix-gpt-tests_Sign_Up_Page_0_document_0_desktop.png",
+        "test": "../bitmaps_test/20250708-224003/netflix-gpt-tests_Sign_Up_Page_0_document_0_desktop.png",
+        "selector": "document",
+        "fileName": "netflix-gpt-tests_Sign_Up_Page_0_document_0_desktop.png",
+        "label": "Sign Up Page",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:3000/",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/netflix-gpt-tests_Dashboard_Page_0_document_0_desktop.png",
+        "test": "../bitmaps_test/20250708-224003/netflix-gpt-tests_Dashboard_Page_0_document_0_desktop.png",
+        "selector": "document",
+        "fileName": "netflix-gpt-tests_Dashboard_Page_0_document_0_desktop.png",
+        "label": "Dashboard Page",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:3000/",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.0005759610321221696,
+          "misMatchPercentage": "0.00",
+          "analysisTime": 78
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/netflix-gpt-tests_GPT_Search_Page_0_document_0_desktop.png",
+        "test": "../bitmaps_test/20250708-224003/netflix-gpt-tests_GPT_Search_Page_0_document_0_desktop.png",
+        "selector": "document",
+        "fileName": "netflix-gpt-tests_GPT_Search_Page_0_document_0_desktop.png",
+        "label": "GPT Search Page",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:3000/browse",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/netflix-gpt-tests_google_test_0_document_0_desktop.png",
+        "test": "../bitmaps_test/20250708-224003/netflix-gpt-tests_google_test_0_document_0_desktop.png",
+        "selector": "document",
+        "fileName": "netflix-gpt-tests_google_test_0_document_0_desktop.png",
+        "label": "google test",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "https://google.com",
+        "referenceUrl": "https://google.com",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.0008680555555555555,
+          "misMatchPercentage": "0.00",
+          "analysisTime": 38
+        }
+      },
+      "status": "pass"
+    }
+  ],
+  "id": "netflix-gpt-tests"
+});
