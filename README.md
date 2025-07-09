@@ -2,16 +2,6 @@
 
 A React application that combines Netflix's UI with AI-powered movie recommendations using OpenAI and TMDB APIs. Includes visual regression testing with BackstopJS.
 
-
-## ✨ Features
-
-- Netflix-like user interface
-- AI-powered movie recommendations (OpenAI integration)
-- Real movie data from TMDB API
-- Responsive design
-- Visual regression testing
-- Customizable user preferences
-
 ## 🛠️ Tech Stack
 
 - React.js
